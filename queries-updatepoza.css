@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1650px){
+   
+}
+
+@media only screen and (max-width: 1300px){
+   .centru{
+       width:80%!important;
+       height:70%;
+   }
+}
+
+@media only screen and (max-width: 1023px){
+  
+}
+
+@media only screen and (max-width: 767px){
+    
+    
+    .title-text{
+        font-size:180%;
+    }
+    form{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 480px){
+  .title-text{
+      font-size:100%!important;
+  }
+  input{
+    width: 100%;
+    font-size:100%;
+  }
+  .centru{
+      width:90%!important;
+  }
+  .btn{
+      padding-top:0vh!important;
+  }
+
+}

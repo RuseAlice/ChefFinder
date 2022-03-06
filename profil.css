@@ -1,0 +1,270 @@
+.profil{
+    background-color: white;
+    padding: 3%;
+}
+.nume-bucatar{
+    text-align: center;
+    font-size: 310%;
+    font-family: Countryside2;
+    margin-top:-1%;
+    width: 60%;
+    margin: 0% auto;
+
+}
+.descriere{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+
+}
+.logout,.fav-btn-dr{
+    width: 15%;
+    float: right;
+    margin-right: -7%;
+    margin-top: -2%;
+}
+.fav-btn-dr
+{
+height: auto;
+}
+.edit{
+    width: 15%;
+    float: right;
+    margin-right: -7%;
+}
+.postare-btn{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 0.5%;
+    font-size: 110%;
+    width: 10%;
+    text-align: center;
+    float: right;
+    margin-right: 1%;
+    margin-top: -1%;
+}
+.logout button, .edit button, .fav-btn-dr button{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+}
+.contact{
+    border: solid 1px rgba(31, 167, 57, 76%);
+    width: 30%;
+    padding: 1%;
+    border-radius: 3%;
+    margin: 0% auto;
+}
+.fav{
+    /* margin-top: 14%; */
+}
+.fav-btn-dr{
+    margin-top: 1%;
+}
+.contact-btn:hover{
+    cursor: pointer;
+}
+.titlu-contact{
+    color:rgb(31, 167, 57);
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 0%;
+    text-align: center;
+    font-family: Countryside2;
+}
+.contact p{
+    font-size: 110%;
+}
+.detalii{
+    /* float: right; */
+    width:46%;
+    margin-right: 2%;
+    margin-top: 6%;
+}
+.detalii button{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+}
+.detalii-postare-orig{
+    margin-top: 2%;
+    /* margin-right: 1%; */
+}
+.detalii-postare-orig button{
+    width: 8.5%;
+    float: right;
+    margin-right: 0.5%;
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 110%;
+    text-align: center;
+}
+ button:hover{
+    cursor: pointer;
+}
+
+.activitate{
+    width: 105%;
+    margin-left: -2%;
+    display: flex;
+}
+
+
+.comentarii{
+    margin-top: 2%;
+    float: right;
+    width:68%;
+    margin-left: 1%;
+    /* border:1px solid rgba(31, 167, 57, 50%); */
+    /* border-radius: 1%; */
+}
+
+.data-comm{
+    float: left;
+    margin-top: -4%;
+    margin-left: 4%;
+    width: 110%;
+}
+.continut{
+    margin-top: 0%;
+    margin-left: 2%;
+    font-size: 138%;
+}
+.btn-sterge{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 120%;
+    /* width: 40%; */
+    text-align: center;
+    margin: 2%;
+}
+.autor-comm{
+    margin:1%;
+}
+.commpic-div{
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    float:left;
+    width: 4vh;
+    height: 4vh;
+    margin-top:0%;
+}
+.commpic{
+    min-width: 100%;
+    height: 100%;
+}
+.comentariu{
+    border:1px solid #e4e4e4;
+    background-color: white;
+    margin: 1% 2%;
+    height: 20vh;
+    display: block;
+}
+.autor-comm{
+    margin-left: 1%;
+}
+.btn-autor-comm{
+    border: none;
+    background: white;
+    color: rgb(31,167,57);
+    font-size: 120%;
+}
+.pozaprofil-div{
+    height: 25vh;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:0% auto 1%;
+    width: 25vh;
+}
+.pozaprofil{
+    min-width: 100%;
+    height: 100%;
+}
+.favoriti{
+    float: left;
+    width: 30%;
+    /* background-color: white; */
+    margin-top: 2%;
+    
+    /* border:1px solid rgba(31, 167, 57, 50%); */
+
+
+}
+.favorit{
+    border:1px solid #e4e4e4;
+    display: block;
+    min-height: 8vh;
+    margin-top:2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: white;
+}
+.favorit .autor-comm{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.fav-btn{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 100%;
+    width: 22%;
+    text-align: center;
+    margin:   0% 2%;
+    float: right;
+    
+}
+.div-favpic{
+display: block;
+overflow: hidden;
+height: 5vh;
+width: 5vh;
+border-radius: 50%;
+float: left;
+margin-top:-2%;
+}
+.favpic{
+    min-width: 100%;
+    height: 100%;
+}
+.profil-fav{
+    width: 50%;
+    float: left;
+}
+.elimina-fav{
+    width: 100%;
+}
+.titlu-fav, .titlu-comm{
+    text-align: center;
+    font-family: Countryside2;
+    font-size:140%;
+    font-weight: bold;
+    color:rgba(31, 167, 57, 76%);
+}
+.locatie{
+    color:rgb(104, 104, 104);
+    text-align: center;
+}

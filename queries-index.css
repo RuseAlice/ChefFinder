@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1650px){
+    .denumire{
+        font-size: 125%;
+    }
+    .preparat{
+       
+        height: 46vh;
+        
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .dropdown{
+        margin-top:-5%;
+    }
+    .preparat{
+        width:22%;
+        max-height: 44vh;
+        margin-left: 2%;
+        float: left;
+    }
+    .img-prep{
+        width:100%;
+        margin:0%;
+    }
+    .denumire{
+        font-size: 135%;
+    }
+    .filtre input{
+        width:90%;
+    }
+    select{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .dropdown{
+        margin-top:-5%;
+    }
+    .preparat{
+        width:40%;
+        max-height: 44vh;
+        margin-left: 2%;
+        float: left;
+    }
+    .img-prep{
+        width:100%;
+        margin:0%;
+    }
+    .filtre input{
+        width:90%;
+    }
+    select{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .dropdown{
+        margin-top:-7%;
+    }
+    
+    
+}
+@media only screen and (max-width: 480px){
+   .title h1{
+       font-size:105%;
+   }
+    .dropdown{
+       margin-top:-11%;
+   }
+   .title{
+       width:45%;
+   }
+   .btn-filtru{
+       padding: 1%;
+       text-align: center;
+   }
+   .filtre{
+       width:100%;
+   }
+   #cauta-nume{
+       text-align: center;
+   }
+   #locatie{
+    display: flex;
+    justify-content: space-evenly;
+   }
+   #filtre-butoane{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+   }
+   .continut{
+       width: 100%;
+       
+   }
+    .preparat{
+       width:90%;
+       max-height: 44vh;
+       margin-left: 2%;
+
+   }
+   .img-prep{
+       width:100%;
+       margin:0%;
+   }
+   .btn-detalii{
+       margin-top: 2%;
+       padding: 1%;
+       font-size:100%;
+       width:30%;
+
+   }
+   .pret{
+       font-size:120%;
+       margin-top:2%;
+   }
+}

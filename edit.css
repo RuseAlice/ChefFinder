@@ -1,0 +1,21 @@
+.centru{
+    text-align: center;
+}
+.form-edit button{
+    display:inline-block;
+    padding:2%;
+    font-weight:600;
+    text-decoration:none;
+    padding-top: 2vh;
+    border-radius: 5%;
+    border: 1px solid  #0e948d;
+    color:whitesmoke !important;
+    margin-top: 2%;
+    /* margin-left: 10%; */
+    background-color:rgb(31, 167, 110);
+    
+    font-size: 110%;
+}
+.form-edit{
+    text-align: center;
+}

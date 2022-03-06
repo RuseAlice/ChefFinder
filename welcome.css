@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("imagini/pexels-acharaporn-kamornboonyarush-1028714.jpg");
+    background-position: top;
+    background-size: cover;
+    color: whitesmoke;
+}
+div{
+    margin-top: 7%;
+    padding-left: 5%;
+}
+h1{
+    font-size: 400%;
+}
+h2{
+    font-size: 300%;
+}
+li{
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+button{
+    background-color: rgb(31, 167, 110);
+    border-radius: 3%;
+    border: teal ;
+    padding: 1%;
+    font-size: 150%;
+    color: whitesmoke;
+    margin-top:2%;
+}
+button:hover{
+    cursor:pointer;
+}
+a, a:visited{
+    
+    color: whitesmoke;
+    text-decoration: none;
+}
+p{
+    margin-top:3%;
+}

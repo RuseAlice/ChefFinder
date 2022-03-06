@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1650px){
+   
+}
+
+@media only screen and (max-width: 1300px){
+    .continut{
+        text-align: center;
+    }
+    .centru{
+        float: none;
+        text-align: center;
+        width:60%;
+    }
+    input{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+    .centru form{
+        font-size:100%;
+        width: 45%;
+    }
+    .client{
+        margin-right: auto;
+    }
+    .title-text{
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+   .continut{
+       text-align: center;
+   }
+   .centru{
+       float: none;
+       text-align: center;
+       width:70%;
+   }
+   input{
+       width: 100%;
+   }
+   .title{
+       width: 100%;
+   }
+}
+
+@media only screen and (max-width: 767px){
+    
+    .centru{
+        width: 100%;
+    }
+    .title-text{
+        font-size: 140%;
+    }
+    /* .centru form{
+        font-size: 70%;
+    } */
+    .bucatar{
+        margin-left: 0%;
+    }
+    .title{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .dropdown{
+        margin-top: -8%;
+    }
+}
+@media only screen and (max-width: 480px){
+  .continut h1{
+      font-size:200%;
+  }
+  .continut h2{
+      font-size: 100%;
+  }
+  .continut a{
+      font-size: 70%;
+  }
+  .title h1{
+      font-size: 100%;
+  }
+  .dropdown{
+      font-size: 60%;
+      margin-top: -10%;
+  }
+}

@@ -1,0 +1,187 @@
+@media only screen and (max-width: 1650px){
+   .dropdown{
+        margin-top:-4%;
+    }
+    .detalii-postare-orig button{
+        width:10.5%;
+    }
+    .detalii-postare-orig{
+        margin-right: 2%;
+    }
+    .edit{
+        margin-right: -5%;
+        margin-top: 1%;
+
+    }
+    .logout, .fav-btn-dr{
+        margin-right: -5%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    
+    .fav{
+        float:right;
+        margin-right: -26%;
+    }
+    .logout button, .edit button, .fav-btn-dr button{
+        width: auto;
+    } 
+   .detalii button{
+       width: 85%;
+       margin-top:22%;
+   }
+   .detalii-postare-orig{
+       margin-top:3%;
+   }
+   .detalii-postare-orig button{
+        width:14.5%;
+    }
+    .edit{
+        margin-right: -15%;
+    }
+    .preparat{
+        height: 38vh;
+    }
+    .data-comm{
+        margin-top:-9%;
+    }
+    .continut{
+        margin-top:-6%;
+    }
+    .comentariu{
+        height: 28vh;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .dropdown{
+        margin-top:-5%;
+    }
+   .preparat{
+       width: 40%;
+       height: 43vh;
+   }
+   .img-prep{
+    width: 114%;
+    margin: -7%;
+   }
+   .fav-btn-dr {
+    margin-top: 2%;
+    margin-right: -11%;
+    }
+    .contact{
+        width: 50%;
+    }
+    .detalii-postare-orig button{
+        margin-right: -11.5%;
+        width: 16.5%;
+    }
+    .logout, .fav-btn-dr {
+        margin-right: -2%;
+    }
+    .data-comm{
+        margin-top: -11%;
+    }
+    .profil-fav{
+        width: 70%;
+
+    }
+    .fav-btn{
+        margin-right: 5%;
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .dropdown{
+        margin-top:-7%;
+    }
+    .logout{
+        margin-right: 2%;
+    }
+    .fav-btn-dr {
+        margin-top: 3%;
+        margin-right: -15%;
+    }
+    .edit{
+        margin-right: -14%;
+        margin-top:3%;
+    }
+
+    .activitate{
+        flex-direction: column;
+    }
+    .profil-fav{
+        width: 30%;
+    }
+    .fav-btn {
+        margin-right: 5%;
+        width: 20%;
+        margin-top: -1%;
+    }
+    .comentarii{
+        width: 100%;
+    }
+    .detealii-postare-orig{
+        margin-top: 4%;
+        margin-right: 15%;
+    }
+}
+@media only screen and (max-width: 480px){
+   .title h1{
+       font-size:105%;
+   }
+    .dropdown{
+       margin-top:-11%;
+       font-size: 85%;
+       margin-right: -2%;
+   }
+   .title{
+       width:45%;
+   }
+   .nume-bucatar
+   {
+    font-size: 200%;
+   }
+   .logout{
+       margin-right: 2%;
+   }
+   .fav-btn-dr {
+    margin-top: 4%;
+   }
+   .preparat{
+       width:95%;
+       height: 50vh;
+       
+   }
+   .img-prep{
+        width: 100%;
+        margin: 0%;
+   }
+   .favoriti{
+       width: 100%;
+   }
+   .profil-fav{
+       width: 40%;
+   }
+   .detalii-postare-orig {
+        margin-right: 12%;
+        margin-top: 6%;
+    }
+   .detalii-postare-orig button{
+       font-size: 90%;
+       width:28%;
+   }
+   .edit {
+        margin-right: -15%;
+        margin-top: 5%;
+    }
+.postare-btn{
+    width: 22%;
+    margin-right: -19%;
+    margin-top: 12%;
+}
+
+   
+}

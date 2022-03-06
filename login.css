@@ -1,0 +1,32 @@
+.centru{
+    text-align: center;
+}
+.title-text{
+    margin-top: 2%;
+    
+}
+ul{
+    margin-top: 14%;
+}
+.btn{
+    padding-bottom: 4%;
+}
+#info{
+    margin-top: 10%;
+    color: whitesmoke;
+}
+.reset-form button{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 110%;
+    width: 50%;
+    text-align: center;
+    margin-top:2%;
+
+}
+.reset-form input:placeholder-shown{
+    color: whitesmoke;
+}

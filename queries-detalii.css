@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1650px){
+   .adauga-comm textarea{
+    width:70%;
+    margin:1%;
+    margin-left:2%;
+   }
+   .descriere{
+       margin:14% auto 1%;
+   }
+   .btn-adauga-comm{
+       margin-top: 0%;
+       margin-left: 2%;
+       float: none;
+   }
+   .dropdown{
+       margin-top: -4%;
+   }
+}
+
+@media only screen and (max-width: 1300px){
+    .dropdown{
+        margin-top:-5%;
+    }
+    .descriere{
+        margin:22% auto 1%;
+        font-size: 150%;
+    }
+    
+}
+
+@media only screen and (max-width: 1023px){
+    .dropdown{
+        margin-top:-5%;
+    }
+    .autor-post form{
+        width:130%;
+    }
+    .autor-post{
+        width: 40%;
+    }
+    .comentarii {
+        margin-top: 7%;
+    }
+    .adauga-comm{
+        text-align: center;
+    }
+    .adauga-comm textarea{
+        width: 95%;
+    }
+    .sterge-comm{
+        width: 13%;
+    }
+    .form-profil{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .dropdown{
+        margin-top:-7%;
+    }
+    .descriere{
+        margin:30% auto 1%;
+        
+    }
+    .sterge-comm{
+        width: 17%;
+    }
+    .form-profil {
+        width: 80%;
+    }
+    .continut-pagina{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+   .title h1{
+       font-size:105%;
+   }
+    .dropdown{
+       margin-top:-11%;
+   }
+   .title{
+       width:45%;
+   }
+   .descriere {
+    margin: 56% auto 1%;
+    font-size: 140%;
+    }
+    .denumire{
+        font-size: 200%;
+    }
+    .sterge-comm {
+        width: 25%;
+        float: right;
+        margin-top: -16%;
+    }
+    .form-profil{
+        width: 85%;
+    }
+  
+}

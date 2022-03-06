@@ -1,0 +1,131 @@
+/* MENIU FILTRE STANGA */
+.filtre{
+    width: 15%;
+    float: left;
+    background-color: white;
+    color: rgb(2, 54, 54);
+    margin-top:1%;
+    padding: 1%;
+}
+.filtre input{
+    color: rgb(31, 167, 57);
+    border-radius: 3%;
+    border: solid 1px ;
+    margin-bottom: 2%;
+}
+.filtre ul{
+    padding-left:3%;
+    
+    /* text-align: center; */
+}
+.filtre li{
+    margin:1% 0%;
+}
+.btn-filtru{
+    color: white;
+    background-color: rgba(31, 167, 57 , 76%);
+    border-radius: 3%;
+    text-align: left;
+    border: currentColor;
+    padding: 3%;
+    margin: 2%;
+}
+select{
+    color: rgb(31, 167, 57);
+    border-radius: 3%;
+    border: solid 1px ;
+}
+.titlu-filtre{
+    font-family:Countryside2;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* PREPARATE */
+
+.continut{
+    width: 82%;
+    float: left;
+    /* background-color: white; */
+    /* border: solid teal;
+    margin:1%; */
+}
+.img-prep{
+    overflow: hidden;
+    display: block;
+    width: 134%;
+    height: 25vh;
+    margin: -17%;
+    margin-bottom: 0%;
+}
+.imagine-preparat{
+    /* width: 100%;
+    height: auto; */
+    min-width: 100%;
+    height: 100%;
+}
+.info{
+    background-color: white;
+}
+.preparat{
+    width: 17%;
+    padding: 3%;
+    background-color: white;
+    margin: 1.5% 1% 1% 1%;
+    float: left;
+    display: block;
+    height: 35vh;
+}
+.preparat:hover{
+    box-shadow: 5px 5px 4px #4d4c4c1c;
+}
+.pret{
+    float: right;
+    color: rgb(31,167,57);
+    font-weight: bold;
+    font-size: 150%;
+}
+.denumire{
+    text-align: center;
+    font-size: 150%;
+    margin: 0%;
+    font-weight: bold;
+    margin-top: 4%;
+    font-family: Countryside2;
+}
+.btn-detalii{
+    margin-top: 10%;
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 3%;
+    font-size: 110%;
+    width: 40%;
+    text-align: center;
+}
+.locatie{
+    margin:0%;
+    color:rgb(104, 104, 104);
+    text-align: center;
+}
+@font-face{
+    font-family: "BeautifulPeople";
+    src:url("fonturi/BeautifulPeoplePersonalUse-dE0g.ttf");
+}
+@font-face{
+    font-family: "BeautyMountains";
+    src:url("fonturi/BeautyMountainsPersonalUse-od7z.ttf");
+}
+@font-face{
+    font-family: "Countryside";
+    src:url("fonturi/Countryside-YdKj.ttf");
+}
+@font-face{
+    font-family: "LemonJelly";
+    src:url("fonturi/LemonJellyPersonalUse-dEqR.ttf");
+}
+@font-face{
+    font-family: "Countryside2";
+    src:url("fonturi/CountrysideTwo-r9WO.ttf");
+}

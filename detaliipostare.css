@@ -1,0 +1,180 @@
+.continut-pagina{
+    width: 75%;
+    margin: -1% auto;
+    background-color: white;
+}
+
+.postare{
+    background-color: white;
+    /* border-radius: 3%; */
+    /* height: 45vh; */
+    display: block;
+}
+.denumire{
+    font-size: 300%;
+    text-align: center;
+    font-family: Countryside2;
+}
+.pret{
+    float:right;
+    font-size: 180%;
+    color:rgb(31,167,57);
+    font-weight: bold;
+    margin-right: 3%;
+    border: 1px solid rgb(31,167,57);
+    padding: 1%;
+    border-radius: 3%;
+    margin-top:-1%;
+}
+.data{
+    float:left;
+}
+.descriere{
+    margin: 10% auto 1%;
+    font-size: 170%;
+    width: 80%;
+    text-align: justify;
+}
+.btn-autor-postare{
+    border: none;
+    background: white;
+    font-weight: bold;
+    font-size: 150%;
+    color:rgb(31,167,57);
+}
+.btn-autor-postare:hover{
+    cursor: pointer;
+}
+.autor-post{
+    width: 20%;
+    /* height: 1%; */
+    height:5vh;
+    float: left;
+    margin-left: 2%;
+}
+.preparat{
+    width: 100%;
+    max-height: 66vh;
+    display: block; 
+    overflow: hidden;
+    text-align: center;
+    margin-top:1%;
+    background: white;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.preparat-img{
+    width: 90%;
+    align-items: center;
+    height: auto;
+}
+.comentarii{
+    margin-top:1%;
+}
+.comentariu{
+    border:1px solid #e4e4e4;
+    background-color: white;
+    margin: 0% 2%;
+ 
+    display: block;
+}
+.btn-autor-comm{
+    border: none;
+    background: white;
+    color: rgb(31,167,57);
+    font-size: 120%;
+}
+.btn-autor-comm:hover{
+    cursor: pointer;
+}
+.form-profil{
+    width: 15%;
+    float: left;
+}
+.autor-comm{
+    margin:1%;
+}
+.commpic-div{
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    float:left;
+    width: 4vh;
+    height: 4vh;
+    margin-top:0%;
+}
+.commpic{
+    min-width: 100%;
+    height: 100%;
+}
+.postarepic-div{
+    float:left;
+   height: 100%;
+    margin-top:0%;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    width:20%;
+}
+.postarepic{
+    min-width: 100%;
+    height: 100%;
+}
+.continut{
+    margin-top: 3%;
+}
+.data-comm{
+    float: left;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 110%;
+}
+.continut{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 138%;
+}
+.btn-sterge{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 120%;
+    /* width: 40%; */
+    text-align: center;
+    margin: 2%;
+}
+.adauga-comm{
+    height:10vh;
+}
+.adauga-comm textarea{
+    width: 80%;
+    height: 6vh;
+    margin: 0% 2%;
+    float:left;
+    font-size: x-large;
+    font-family: -webkit-body;
+}
+.btn-adauga-comm{
+    color: white;
+    background: rgba(31, 167, 57, 76%);
+    border: cornsilk;
+    border-radius: 3%;
+    padding: 1%;
+    font-size: 120%;
+    /* width: 40%; */
+    text-align: center;
+    margin-top: -1%;
+    /* margin-left: 2%; */
+    float: right;
+    margin-right: 3%;
+}
+.sterge-comm{
+    width:9%;
+    float:right;
+    margin-top: -5%;
+}
